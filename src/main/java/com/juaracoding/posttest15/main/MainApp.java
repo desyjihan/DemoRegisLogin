@@ -40,7 +40,7 @@ public class MainApp {
 		Thread.sleep(600);
 		
 		LoginPage loginPage = new LoginPage();
-		loginPage.login("jihan", "jihan.123.asd");
+		loginPage.login("", "jihan.123.asd");
 		System.out.println("Input Login Success");
 		Thread.sleep(600);
 

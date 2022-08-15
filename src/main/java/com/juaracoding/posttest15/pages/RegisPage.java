@@ -29,9 +29,9 @@ public class RegisPage {
 	private WebElement btnReg;
 	
 	public void regis(String regusername, String regemail, String regpassword) {
-		this.regUserName.sendKeys("jihan");
-		this.regEmail.sendKeys("jihan@test.com");
-		this.regPassword.sendKeys("jihan.123.asd");
+		this.regUserName.sendKeys(regusername);
+		this.regEmail.sendKeys(regemail);
+		this.regPassword.sendKeys(regpassword);
 		btnReg.click();
 		
 	}

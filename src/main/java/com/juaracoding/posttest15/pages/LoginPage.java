@@ -25,9 +25,9 @@ public class LoginPage {
 	@FindBy(xpath = "//button[@name='login']")
 	private WebElement btnLogin;
 	
-	public void login(String username, String regpassword) {
-		this.userName.sendKeys("");
-		this.regPassword.sendKeys("jihan.123.asd");
+	public void login(String regusername, String regpassword) {
+		this.userName.sendKeys(regusername);
+		this.regPassword.sendKeys(regpassword);
 		btnLogin.click();
 		
 	}
